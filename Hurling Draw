@@ -1,0 +1,32 @@
+import random
+
+input_string = input('Please enter the teams for Kilkenny Senior Hurling Draw:  ')
+print("\n")
+KKTeams = input_string.split() # takes user input and creates a list
+
+
+KKTeams.sort() # sorts teams in alphabetical order
+
+print ("Teams: ", KKTeams) # prints out the teams in alphabetical order
+random.shuffle(KKTeams) # shuffles the teams (this is effectively the "draw")
+
+print('The two groups are: \n')
+print (KKTeams[0:6])
+print (KKTeams[6:])
+
+random.shuffle(KKTeams)
+
+print('\nChampionship Draw \n')       
+print (KKTeams[0:2])
+print (KKTeams[2:4])
+print (KKTeams[4:6])
+print (KKTeams[6:8])
+print (KKTeams[8:10])
+print (KKTeams[10:])
+
+
+
+
+
+
+
