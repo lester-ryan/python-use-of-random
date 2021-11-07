@@ -1,0 +1,55 @@
+import random
+
+number = random.randint(1, 10)
+
+
+counter = 1
+
+
+if counter <= number:
+    print("She loves me") 
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me not") 
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me")  
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me not")  
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me")  
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me not")  
+    counter = counter + 1
+   
+if counter <= number:
+    print("She loves me") 
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me not")  
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me")  
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me not")  
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me")  
+    counter = counter + 1
+    
+if counter <= number:
+    print("She loves me not")  
+    counter = counter + 1
