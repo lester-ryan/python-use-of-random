@@ -1,0 +1,20 @@
+import random
+correctNumber= random.randint(1, 10)
+
+print (correctNumber)
+
+counter=0
+
+while counter<100:
+    correctNumber2= random.randint(1, 10)
+    print (correctNumber2)
+    if correctNumber==correctNumber2:
+        print ('Same')
+        break
+    elif correctNumber>correctNumber2:
+        print("Too low")
+    else:
+        print("Too high")
+
+    counter = counter + 1
+
